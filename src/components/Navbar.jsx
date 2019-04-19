@@ -6,9 +6,11 @@ import mIcon from '../assets/images/m-icon.png';
 function Navbar(){
   return (
     <div className='bg-grn navbar'>
-      <img src={mIcon}></img>
-      <h1>Help Queue!</h1>
-      <Link to="/">Home</Link>
+      <img id="m-icon" src={mIcon}></img>
+      <div className="rowify">
+        <Link to="/">Sign in</Link>
+        <Link id="curve-border" to="/">Get started</Link>
+      </div>
     </div>
   );
 }
