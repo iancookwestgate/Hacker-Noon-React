@@ -3,49 +3,49 @@ import Post from './Post';
 
 const masterPostList = [
   {
-    names: 'Thato and Haley',
-    location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    title: 'Thato and Haley',
+    author: '3A',
+    details: 'Firebase won\'t save record. Halp.'
   },
   {
-    names: 'Sleater and Kinney',
-    location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    title: 'Sleater and Kinney',
+    author: '4B',
+    details: 'Fox image not displaying on page, can only see duck?'
   },
   {
-    names: 'Imani & Jacob',
-    location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
+    title: 'Imani & Jacob',
+    author: '9F',
+    details: 'Donkey picture not displaying on hover in Zoology app. :('
   },
   {
-    names: 'Thato and Haley',
-    location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    title: 'Thato and Haley',
+    author: '3A',
+    details: 'Firebase won\'t save record. Halp.'
   },
   {
-    names: 'Sleater and Kinney',
-    location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    title: 'Sleater and Kinney',
+    author: '4B',
+    details: 'Fox image not displaying on page, can only see duck?'
   },
   {
-    names: 'Imani & Jacob',
-    location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
+    title: 'Imani & Jacob',
+    author: '9F',
+    details: 'Donkey picture not displaying on hover in Zoology app. :('
   },
   {
-    names: 'Thato and Haley',
-    location: '3A',
-    issue: 'Firebase won\'t save record. Halp.'
+    title: 'Thato and Haley',
+    author: '3A',
+    details: 'Firebase won\'t save record. Halp.'
   },
   {
-    names: 'Sleater and Kinney',
-    location: '4B',
-    issue: 'Fox image not displaying on page, can only see duck?'
+    title: 'Sleater and Kinney',
+    author: '4B',
+    details: 'Fox image not displaying on page, can only see duck?'
   },
   {
-    names: 'Imani & Jacob',
-    location: '9F',
-    issue: 'Donkey picture not displaying on hover in Zoology app. :('
+    title: 'Imani & Jacob',
+    author: '9F',
+    details: 'Donkey picture not displaying on hover in Zoology app. :('
   }
 ];
 
@@ -53,6 +53,7 @@ function Highlights(){
   return (
     <div>
       <hr/>
+      <h1>This is the Highlights component</h1>
       {masterPostList.map((post, index) =>
         <Post title={post.title}
           author={post.author}

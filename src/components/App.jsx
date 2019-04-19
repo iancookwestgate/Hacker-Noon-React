@@ -2,7 +2,7 @@ import React from 'react';
 import Highlights from './Highlights';
 import Navbar from './Navbar';
 import { Switch, Route } from 'react-router-dom';
-import NewPostForm from './NewPostForm';
+// import NewPostForm from './NewPostForm';
 import Error404 from './Error404';
 
 function App(){
@@ -11,7 +11,6 @@ function App(){
       <Navbar/>
       <Switch>
         <Route exact path='/' component={Highlights} />
-        <Route exact path='/newpost' component={NewPostForm} />
         <Route component={Error404}/>
       </Switch>
       <h1 style={{height: '50px'}}></h1>
@@ -20,3 +19,5 @@ function App(){
 }
 
 export default App;
+
+// <Route exact path='/newpost' component={NewPostForm} />
