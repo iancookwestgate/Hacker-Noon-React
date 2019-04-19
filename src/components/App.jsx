@@ -1,5 +1,5 @@
 import React from 'react';
-import PostList from './PostList';
+import Highlights from './Highlights';
 import Navbar from './Navbar';
 import { Switch, Route } from 'react-router-dom';
 import NewPostForm from './NewPostForm';
@@ -10,7 +10,7 @@ function App(){
     <div>
       <Navbar/>
       <Switch>
-        <Route exact path='/' component={PostList} />
+        <Route exact path='/' component={Highlights} />
         <Route exact path='/newpost' component={NewPostForm} />
         <Route component={Error404}/>
       </Switch>
