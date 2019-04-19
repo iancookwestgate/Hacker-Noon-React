@@ -6,9 +6,15 @@
 
 This clone of the Hacker Noon website is an app designed for Epicodus to practice cloning a website using the React framework. The links have no functionality. The final version will include posts brought in via a database using Firebase.
 
+A key aspect of this project was converting an earlier Hacker Noon clone using an Angular framework into this one using the React library. For the most part, this was smooth and easy. React is a pleasure to work with and much simpler than what was, to me, the more complicated snarl of components & files of Angular. The only hiccup that occurred pertained to proper imports. Needing to import each individual image from the assets/images folder was a confusing change, and one that took me a little while to understand. Beyond that, it was a blast using React and I look forward to using it in the future over other frameworks/libraries out there.
+
 ## Component Structure
 
 ![Component and Routing structure for the Hacker Noon Clone in React](src/assets/images/component-structure.jpg)
+
+## Epicodus' README Prompts
+
+*
 
 ## Setup
 
@@ -17,7 +23,7 @@ This clone of the Hacker Noon website is an app designed for Epicodus to practic
 * Navigate to the folder in the terminal by typing in: `cd Hacker-Noon-React`.
 * In your terminal, enter `npm install` to install necessary dependencies.
 * Then enter `npm run start` to prep the project to be viewed.
-* In your web browser, go to `http://localhost:8080/` to see and interact with the project.
+* In your web browser, go to `http://localhost:8080/` to see the project.
 
 ## Site Features
 
