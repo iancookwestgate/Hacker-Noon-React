@@ -17,7 +17,7 @@ function Post(props){
       <h3>{props.title}</h3>
       <img src={props.profile}></img>
       <p>{props.name} - {props.dateRead}</p>
-      <p><em>{props.details}</em></p>
+      <p><em>{props.description}</em></p>
     </div>
   );
 }
