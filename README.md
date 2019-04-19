@@ -28,7 +28,7 @@ A key aspect of this project was converting an earlier Hacker Noon clone using a
 ## Site Features
 
 * Navbar recreates the neon green style of Hacker Noon.
-* Icons and imagery are in place, saved from Hacker Noon's page at the time of this clone's creation.
+* Most of the icons and imagery are in place, saved from Hacker Noon's page at the time of this clone's creation.
 * Site is structured to resemble Hacker Noon's presentation.
 
 ## Planned Features
@@ -41,6 +41,7 @@ A key aspect of this project was converting an earlier Hacker Noon clone using a
 
 * HTML
 * CSS
+  * SCSS
 * JavaScript
 * Node Packet Manager (NPM)
 * Babel
