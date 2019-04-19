@@ -36,13 +36,26 @@ span {
 
 #m-icon {
   margin-top: 1%;
+  margin-left: 1%;
   width: 45px;
   height: 45px;
 }
 
+#sign-in {
+  padding-right: 15px;
+  color: rgba(0,0,0,.68);
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+  font-size: 15px;
+}
+
 #curve-border {
-  border: 1px solid black;
-  border-radius: 5px;
+  border: 1px solid rgba(0,0,0,.68);
+  border-radius: 4px;
+  padding: 0 16px;
+  line-height: 37px;
+  color: rgba(0,0,0,.68);
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+  font-size: 15px;
 }
 
 #logo {
@@ -56,7 +69,6 @@ span {
 
 .rowify {
   display: flex;
-  flex-direction: row;
   align-items: center;
 }
 

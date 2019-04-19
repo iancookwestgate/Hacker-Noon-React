@@ -13,7 +13,7 @@ function Navbar(){
         <div className='topbar'>
           <img id="m-icon" src={mIcon}></img>
           <div className="rowify">
-            <Link to="/">Sign in</Link>
+            <Link id="sign-in" to="/">Sign in</Link>
             <Link id="curve-border" to="/">Get started</Link>
           </div>
         </div>
