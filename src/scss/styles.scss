@@ -1,14 +1,16 @@
 @import 'backgrounds.scss';
 @import 'hovers.scss';
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
+// Global SCSS
 a {
   text-decoration: none;
   color: black;
+}
+
+// Navbar Component SCSS
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 #m-icon {
@@ -43,26 +45,16 @@ a {
   margin-right: 2%;
 }
 
-.topStories {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
+// Highlights Component SCSS
 .stories {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  padding-left: 12px;
-  padding-right: 12px;
   max-width: 1056px;
   max-height: 492px;
 }
 
-.topArranged {
-  width: 100%;
-}
-
+// Post Component SCSS
 .arranged {
   max-width: 328px;
 }
@@ -107,4 +99,15 @@ a {
 
 #date-details {
   margin-top: 1px;
+}
+
+// To be used once database connection is made
+.topStories {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.topArranged {
+  width: 100%;
 }
