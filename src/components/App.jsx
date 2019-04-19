@@ -8,7 +8,7 @@ import Error404 from './Error404';
 function App(){
   return (
     <div>
-      <Header/>
+      <Navbar/>
       <Switch>
         <Route exact path='/' component={TicketList} />
         <Route exact path='/newticket' component={NewTicketForm} />
