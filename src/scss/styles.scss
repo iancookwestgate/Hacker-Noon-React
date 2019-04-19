@@ -78,9 +78,13 @@ span {
 }
 
 .leftside {
-  margin-left: 1%;
+  padding-bottom: 12px;
   a {
-    padding-left: 10px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+    padding-left: 12px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    line-height: 38px;
   }
 }
 
