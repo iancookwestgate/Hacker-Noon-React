@@ -1,40 +1,59 @@
-# _React Template_
+# Hacker Noon Clone in React
 
-## _DO NOT TOUCH THE `Webpack-dev-server` dependency unless you know what your doing. If you update it there will be errors that break the application!_
-
-#### _This is a template using webpack for React, 04/15/19_
-
-#### By _**Ryan McLean**_
+#### By **Ian Cook Westgate**
 
 ## Description
 
-_This is a template that has been created for anyone to use. Clone it down and it will work. This template also includes scss styling_
+This clone of the Hacker Noon website is an app designed for Epicodus to practice cloning a website using the React framework. The links have no functionality. The final version will include posts brought in via a database using Firebase.
 
-## Setup/Installation Requirements
+## Component Structure
 
-* _Run `git clone https://github.com/Lilkgb/react-template` in your terminal of choice_
-* _Navigate to where you put the folder inside your terminal and run `npm install`_
-* _After the install is complete you can run `npm run start` to see a live version of the website._
+![Component and Routing structure for the Hacker Noon Clone in React](src/assets/images/component-structure.jpg)
 
+## Setup
 
-## Known Bugs
+* In your terminal, if you intend to view the code and want to make the React pages more legible, enter `apm install react`.
+* Using your terminal, clone this repo by inputting `git clone https://github.com/iwestgate931/hacker-noonclone.git`.
+* Navigate to the folder in the terminal by typing in: `cd Hacker-Noon-React`.
+* In your terminal, enter `npm install` to install necessary dependencies.
+* Then enter `npm run start` to prep the project to be viewed.
+* In your web browser, go to `http://localhost:8080/` to see and interact with the project.
 
-_If you run `npm run lint` on pc you will get `Expected linebreaks to be 'LF' but found 'CRLF'`. It doesn't break the code and will still run correctly when you run `npm run start`_
+## Site Features
 
-## Support and contact details
+* Navbar recreates the neon green style of Hacker Noon.
+* Icons and imagery are in place, saved from Hacker Noon's page at the time of this clone's creation.
+* Site is structured to resemble Hacker Noon's presentation.
 
-_Please contact Ryan McLean at rmcleandev@gmail.com_
+## Planned Features
+
+* Derive posts from a Firebase database.
+* Tighten up the arrangement of posts to better match that of Hacker Noon's.
+* Spend more time with CSS to properly format fonts, links, and post info.
 
 ## Technologies Used
 
-_scss_
-_Webpack_
-_React_
-_eslint_
-_AOS_
+* HTML
+* CSS
+* JavaScript
+* Node Packet Manager (NPM)
+* Babel
+* Webpack
+* React
+* ESLint
 
-### License
+## Known Bugs
 
-*This Software is Licensed under the MIT License.*
+*
+*
+*
 
-Copyright (c) 2019 **_Ryan McLean_**
+## Support and contact details
+
+_Email iancookwestgate@gmail.com with any questions._
+
+## License
+
+This software is licensed under the MIT license.
+
+Copyright (c) 2019 **Ian Cook Westgate**
