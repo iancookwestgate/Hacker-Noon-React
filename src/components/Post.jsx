@@ -5,7 +5,7 @@ import '../scss/styles.scss';
 function Post(props){
 
   return (
-    <div className="stories" data-aos='fade-in'>
+    <div data-aos='fade-in'>
       <div>
         <div className="spacing">
           <img className="spread" src={props.img}></img>

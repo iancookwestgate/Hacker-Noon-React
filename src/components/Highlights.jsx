@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post';
+import '../scss/styles.scss';
 
 const masterPostList = [
   {
@@ -69,7 +70,7 @@ const masterPostList = [
 
 function Highlights(){
   return (
-    <div>
+    <div className="stories">
       {masterPostList.map((post, index) =>
         <Post img={post.img}
           title={post.title}

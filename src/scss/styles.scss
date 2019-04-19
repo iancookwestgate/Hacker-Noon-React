@@ -51,6 +51,7 @@ a {
 
 .stories {
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1056px;
   max-height: 492px;
@@ -99,7 +100,6 @@ a {
   max-width: 32px;
   max-height: 32px;
 }
-
 
 #date-details {
   margin-top: 1px;
