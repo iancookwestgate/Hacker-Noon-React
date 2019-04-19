@@ -22,8 +22,23 @@ a {
   border-radius: 5px;
 }
 
+#logo {
+  width: 490px;
+  padding: 20px 20px 20px 0;
+}
+
 .rowify {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.split {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftside {
+  margin-left: 2%;
+  margin-right: 2%;
 }
