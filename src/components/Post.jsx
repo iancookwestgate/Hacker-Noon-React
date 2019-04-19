@@ -14,7 +14,8 @@ function Post(props){
   return (
     <div style={postStyles} className='hover-shadow' data-aos='fade-in'>
       <img src={props.img}></img>
-      <h3>{props.title} - {props.profile}</h3>
+      <h3>{props.title}</h3>
+      <img src={props.profile}></img>
       <p>{props.name} - {props.dateRead}</p>
       <p><em>{props.details}</em></p>
     </div>
