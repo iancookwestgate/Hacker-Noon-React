@@ -34,29 +34,36 @@ const masterPostList = [
     dateRead: 'Mar 31 - 10 min read'
   },
   {
-    title: 'Sleater and Kinney',
-    author: '4B',
-    details: 'Fox image not displaying on page, can only see duck?'
+    img: 'https://cdn-images-1.medium.com/max/800/1*yO55I62E90zoxufpr1vX8A.png',
+    title: 'Big Data and Machine Learning with Nick Caldwell',
+    description: "Episode 39 of the Hacker Noon Podcast: An interview with Nick Caldwell CPO at Looked and former VP of engineering at Reddit.",
+    profile: 'https://cdn-images-1.medium.com/fit/c/60/60/1*JieNwiCqpUvMBcXh_NjPiw.jpeg',
+    name: 'Hackernoon',
+    dateRead: 'Apr 18 - 2 min read'
   },
   {
-    title: 'Imani & Jacob',
-    author: '9F',
-    details: 'Donkey picture not displaying on hover in Zoology app. :('
+    img: 'https://cdn-images-1.medium.com/max/1200/1*Rk5glLCw-cPoyDW7S2GY4w.jpeg',
+    title: 'Upgrade Driven Development',
+    description: "or: How I Learned to Stop Worrying and Love Immutable Code",
+    profile: 'https://cdn-images-1.medium.com/fit/c/60/60/1*Nck_fsajfhgK7SJ_w_4-1g.jpeg',
+    name: 'Dennison Bertram',
+    dateRead: 'Apr 19 - 6 min read'
   },
   {
-    title: 'Thato and Haley',
-    author: '3A',
-    details: 'Firebase won\'t save record. Halp.'
+    img: 'https://cdn-images-1.medium.com/max/800/1*ZGK1PbAgmpMHTEty9WKTMQ.jpeg',
+    title: 'How to Hire a Python Developer With Right Skill Set?',
+    description: 'Bram Cohen has beautifully crafted Python language in a nutshell, as "simple, clean syntax, object encapsulation, good library support and...',
+    profile: 'https://cdn-images-1.medium.com/fit/c/60/60/2*NQjXxGOv3w7SnNC_XW37nQ.png',
+    name: 'Jessica John',
+    dateRead: 'Apr 19 - 5 min read'
   },
   {
-    title: 'Sleater and Kinney',
-    author: '4B',
-    details: 'Fox image not displaying on page, can only see duck?'
-  },
-  {
-    title: 'Imani & Jacob',
-    author: '9F',
-    details: 'Donkey picture not displaying on hover in Zoology app. :('
+    img: 'https://cdn-images-1.medium.com/max/800/1*edQb5w85Z5FKM8Y7Fb3kbw.jpeg',
+    title: 'Some Thoughts About Security Token Networks [Part II]',
+    description: 'This is the second part of an article that explore ideas about the emerging field of security token networks. The first part discussed...',
+    profile: 'https://cdn-images-1.medium.com/fit/c/60/60/1*9hmRpqiPP9vEjlGS2AJnaw.jpeg',
+    name: 'Jesus Rodriguez',
+    dateRead: 'Apr 19 - 6 min read'
   }
 ];
 
