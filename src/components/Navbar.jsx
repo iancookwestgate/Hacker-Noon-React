@@ -10,24 +10,26 @@ function Navbar(){
   return (
     <div className='bg-grn'>
       <div className='navbar'>
-        <img id="m-icon" src={mIcon}></img>
-        <div className="rowify">
-          <Link to="/">Sign in</Link>
-          <Link id="curve-border" to="/">Get started</Link>
-        </div>
-      </div>
-      <div className='secondary-bar'>
-        <img id="logo" src={hNoon}></img>
-        <div className="split">
-          <div className="leftside">
-            <Link to="/">LATEST</Link>
-            <Link to="/">EDITOR'S CHOICE</Link>
-            <Link to="/">JOIN COMMUNITY</Link>
+        <div className='topbar'>
+          <img id="m-icon" src={mIcon}></img>
+          <div className="rowify">
+            <Link to="/">Sign in</Link>
+            <Link id="curve-border" to="/">Get started</Link>
           </div>
-          <div className="icons">
-            <img src={twitter}></img>
-            <img src={fbook}></img>
-            <Link to="/">Follow</Link>
+        </div>
+        <div className='secondary-bar'>
+          <img id="logo" src={hNoon}></img>
+          <div className="split">
+            <div className="leftside">
+              <Link to="/">LATEST</Link>
+              <Link to="/">EDITOR'S CHOICE</Link>
+              <Link to="/">JOIN COMMUNITY</Link>
+            </div>
+            <div className="icons">
+              <img src={twitter}></img>
+              <img src={fbook}></img>
+              <Link to="/">Follow</Link>
+            </div>
           </div>
         </div>
       </div>

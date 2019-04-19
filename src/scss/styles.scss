@@ -9,8 +9,17 @@ a {
 
 // Navbar Component SCSS
 .navbar {
+  margin: 0 auto;
+  max-width: 1056px;
+  max-height: 300px;
+}
+
+.topbar {
   display: flex;
   justify-content: space-between;
+}
+
+.secondary-bar {
 }
 
 #m-icon {
