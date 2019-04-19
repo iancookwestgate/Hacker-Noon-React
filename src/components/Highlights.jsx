@@ -70,8 +70,6 @@ const masterPostList = [
 function Highlights(){
   return (
     <div>
-      <hr/>
-      <h1>This is the Highlights component</h1>
       {masterPostList.map((post, index) =>
         <Post img={post.img}
           title={post.title}
