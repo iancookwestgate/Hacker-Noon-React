@@ -19,19 +19,21 @@ function Navbar(){
         </div>
         <div className='secondary-bar'>
           <div className="imgManip">
-            <img id="logo" src={hNoon}></img>
+            <Link to ="/"><img id="logo" src={hNoon}></img></Link>
           </div>
           <div className="split">
             <div className="leftside">
               <a href="#">LATEST</a>
               <a href="#">TOP</a>
               <a href="#">2.0</a>
-              <a href="#">PODCAST</a>
+              <a id="bord-right" href="#">PODCAST</a>
+              <a href="#">GET PUBLISHED</a>
             </div>
             <div className="icons">
+              <img src="https://img.icons8.com/ios-glyphs/30/000000/search.png"></img>
               <img src={twitter}></img>
               <img src={fbook}></img>
-              <Link to="/">Follow</Link>
+              <a href="#">Follow</a>
             </div>
           </div>
         </div>

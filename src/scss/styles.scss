@@ -63,6 +63,11 @@ span {
   padding: 20px 20px 20px 0;
 }
 
+#bord-right {
+  border-right: .7px solid rgba(0,0,0,.68);
+  padding-right: 20px;
+}
+
 .imgManip {
   max-height: 500vh;
 }
@@ -81,7 +86,7 @@ span {
   padding-bottom: 12px;
   a {
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-    padding-left: 12px;
+    padding-left: 22px;
     font-size: 14px;
     color: rgba(0,0,0,.54);
     line-height: 38px;
