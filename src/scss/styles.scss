@@ -78,8 +78,10 @@ span {
 }
 
 .leftside {
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 1%;
+  a {
+    padding-left: 10px;
+  }
 }
 
 // Highlights Component SCSS

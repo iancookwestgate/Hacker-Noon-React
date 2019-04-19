@@ -23,9 +23,10 @@ function Navbar(){
           </div>
           <div className="split">
             <div className="leftside">
-              <Link to="/">LATEST</Link>
-              <Link to="/">EDITOR'S CHOICE</Link>
-              <Link to="/">JOIN COMMUNITY</Link>
+              <a href="#">LATEST</a>
+              <a href="#">TOP</a>
+              <a href="#">2.0</a>
+              <a href="#">PODCAST</a>
             </div>
             <div className="icons">
               <img src={twitter}></img>
