@@ -1,8 +1,7 @@
 import React from 'react';
-import Ticket from './Ticket';
-import stewie from '../assets/images/stewie.png';
+import Post from './Post';
 
-const masterTicketList = [
+const masterPostList = [
   {
     names: 'Thato and Haley',
     location: '3A',
@@ -50,19 +49,18 @@ const masterTicketList = [
   }
 ];
 
-function TicketList(){
+function Highlights(){
   return (
     <div>
-      <img src={stewie}></img>
       <hr/>
-      {masterTicketList.map((ticket, index) =>
-        <Ticket names={ticket.names}
-          location={ticket.location}
-          issue={ticket.issue}
+      {masterPostList.map((post, index) =>
+        <Post title={post.title}
+          author={post.author}
+          details={post.details}
           key={index}/>
       )}
     </div>
   );
 }
 
-export default TicketList;
+export default Highlights;
