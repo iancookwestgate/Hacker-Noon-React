@@ -2,7 +2,6 @@ import React from 'react';
 import Highlights from './Highlights';
 import Navbar from './Navbar';
 import { Switch, Route } from 'react-router-dom';
-// import NewPostForm from './NewPostForm';
 import Error404 from './Error404';
 
 function App(){
@@ -19,5 +18,3 @@ function App(){
 }
 
 export default App;
-
-// <Route exact path='/newpost' component={NewPostForm} />

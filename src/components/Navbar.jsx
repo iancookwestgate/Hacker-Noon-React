@@ -12,6 +12,3 @@ function Navbar(){
 }
 
 export default Navbar;
-
-
-// | <Link to="/newpost">Create Post</Link>
