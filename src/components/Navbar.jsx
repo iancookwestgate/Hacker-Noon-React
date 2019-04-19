@@ -18,7 +18,9 @@ function Navbar(){
           </div>
         </div>
         <div className='secondary-bar'>
-          <img id="logo" src={hNoon}></img>
+          <div className="imgManip">
+            <img id="logo" src={hNoon}></img>
+          </div>
           <div className="split">
             <div className="leftside">
               <Link to="/">LATEST</Link>

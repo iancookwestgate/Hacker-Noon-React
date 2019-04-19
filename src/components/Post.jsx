@@ -15,7 +15,8 @@ function Post(props){
             <img className="insta" src={props.profile}></img>
             <div className="sort">
               <a href="#">{props.name}</a>
-              <p id="date-details">{props.dateRead}</p>
+              <br></br>
+              <span id="date-details">{props.dateRead}</span>
             </div>
           </div>
         </div>

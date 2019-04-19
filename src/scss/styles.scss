@@ -7,6 +7,18 @@ a {
   color: black;
 }
 
+p {
+  font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif;
+  color: rgba(0,0,0,.54);
+  line-height: 1.4;
+}
+
+span {
+  font-family: Helvetica Nue, sans-serif;
+  font-size: 13px;
+  color: rgba(0,0,0,.54);
+}
+
 // Navbar Component SCSS
 .navbar {
   margin: 0 auto;
@@ -36,6 +48,10 @@ a {
 #logo {
   width: 490px;
   padding: 20px 20px 20px 0;
+}
+
+.imgManip {
+  max-height: 500vh;
 }
 
 .rowify {
