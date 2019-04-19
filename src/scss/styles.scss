@@ -53,6 +53,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
+  padding-left: 12px;
+  padding-right: 12px;
   max-width: 1056px;
   max-height: 492px;
 }
@@ -66,7 +68,9 @@ a {
 }
 
 .spacing {
-
+  padding-top: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .highlighted {
