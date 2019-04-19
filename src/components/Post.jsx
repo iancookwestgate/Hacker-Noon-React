@@ -13,16 +13,21 @@ function Post(props){
   };
   return (
     <div style={postStyles} className='hover-shadow' data-aos='fade-in'>
-      <h3>{props.title} - {props.author}</h3>
+      <img src={props.img}></img>
+      <h3>{props.title} - {props.profile}</h3>
+      <p>{props.name} - {props.dateRead}</p>
       <p><em>{props.details}</em></p>
     </div>
   );
 }
 
 Post.propTypes = {
+  img: PropTypes.string,
   title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-  details: PropTypes.string
+  description: PropTypes.string,
+  profile: PropTypes.string.isRequired,
+  name: PropTypes.string,
+  dateRead: PropTypes.string
 };
 
 export default Post;
