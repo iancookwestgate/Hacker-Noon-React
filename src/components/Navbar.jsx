@@ -5,6 +5,7 @@ import mIcon from '../assets/images/m-icon.png';
 import hNoon from '../assets/images/hnoon-home.png';
 import twitter from '../assets/images/twitter.png';
 import fbook from '../assets/images/fbook.png';
+import magGlass from '../assets/images/magGlass.png';
 
 function Navbar(){
   return (
@@ -30,10 +31,10 @@ function Navbar(){
               <a href="#">GET PUBLISHED</a>
             </div>
             <div className="icons">
-              <img src="https://img.icons8.com/ios-glyphs/30/000000/search.png"></img>
+              <img src={magGlass}></img>
               <img src={twitter}></img>
               <img src={fbook}></img>
-              <a href="#">Follow</a>
+              <a id="follow" href="#">Follow</a>
             </div>
           </div>
         </div>

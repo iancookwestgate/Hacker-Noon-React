@@ -93,6 +93,24 @@ span {
   }
 }
 
+.icons {
+  padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  img {
+    padding-right: 10px;
+  }
+}
+
+#follow {
+  border: 1px solid rgba(0,0,0,.68);
+  border-radius: 4px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+  padding: 0 10px;
+}
+
 // Highlights Component SCSS
 .stories {
   display: flex;
