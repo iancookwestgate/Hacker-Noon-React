@@ -1,7 +1,7 @@
 {
-  "name": "react-template",
+  "name": "Hacker-Noon-Clone",
   "version": "1.0.0",
-  "description": "This will act as template",
+  "description": "",
   "main": "index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
