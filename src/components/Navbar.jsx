@@ -60,10 +60,10 @@ class Navbar extends React.Component {
             </div>
           </div>
         </div>
-      <div className={true===this.state.stageVisibleOnPage? "hide" : "show"}>
-        <h1>You found me!</h1>
+        <div className={true===this.state.stageVisibleOnPage? "hide" : "show"}>
+          <h1>You found me!</h1>
+        </div>
       </div>
-    </div>
     );
   }
 
