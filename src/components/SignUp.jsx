@@ -6,7 +6,9 @@ function SignUp(){
   return (
     <div className="bg-grn signUp">
       <img id="compu" src={computer}></img>
-      <a href="#" id="newsletter" type="submit">Signup for the Hacker Noon Newsletter</a>
+      <div className="signup-sep">
+        <a href="#" id="newsletter" type="submit">Signup for the Hacker Noon Newsletter</a>
+      </div>
     </div>
   );
 }
