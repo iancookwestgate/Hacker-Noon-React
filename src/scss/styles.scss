@@ -142,11 +142,15 @@ span {
 #newsletter {
   border: 1px solid rgba(0,0,0,.68);
   border-radius: 4px;
-  padding: 0 16px;
+  padding: 7px 16px;
   line-height: 37px;
   color: rgba(0,0,0,.68);
   font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.signup-sep {
+  margin-top: 20px;
 }
 
 // Post Component SCSS
