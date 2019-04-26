@@ -16,6 +16,7 @@ p {
 span {
   font-family: Helvetica Nue, sans-serif;
   font-size: 13px;
+  color: rgba(0,0,0,.54);
 }
 
 // Navbar Component SCSS
@@ -116,7 +117,7 @@ span {
   flex-wrap: wrap;
   margin: 0 auto;
   max-width: 1056px;
-  max-height: 492px;
+  max-height: 600px;
 }
 
 // Post Component SCSS
