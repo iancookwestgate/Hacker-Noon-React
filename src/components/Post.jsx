@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import '../scss/styles.scss';
-import InfiniteScroll from 'react-infinite-scroller';
 
 function Post(props){
 

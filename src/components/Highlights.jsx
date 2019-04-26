@@ -1,6 +1,7 @@
 import React from 'react';
 import Post from './Post';
 import SignUp from './SignUp';
+import InfiniteScroll from 'react-infinite-scroller';
 import '../scss/styles.scss';
 
 const masterPostList = [
