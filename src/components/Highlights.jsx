@@ -1,4 +1,5 @@
-import React from 'react';
+import React, {Component, Fragment } from 'react';
+import { render } from "react-dom";
 import Post from './Post';
 import SignUp from './SignUp';
 import '../scss/styles.scss';
@@ -189,21 +190,51 @@ const masterPostList = [
   },
 ];
 
-function Highlights(){
-  return (
-    <div className="stories">
-      {masterPostList.map((post, index) =>
-        <Post img={post.img}
-          title={post.title}
-          description={post.description}
-          profile={post.profile}
-          name={post.name}
-          dateRead={post.dateRead}
-          key={index}/>
-      )}
-      <SignUp/>
-    </div>
-  );
+class Highlights extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      error: false,
+      hasMore: true,
+      isLoading: false,
+      users: [],
+    };
+
+    window.onscroll = () => {
+      const {
+        loadIt,
+        state: {
+          error,
+          isLoading,
+          hasMore,
+        },
+      } = this;
+
+      if (error || isLoading || !hasMore) return;
+
+      if (
+        window.innerHeight + document.documentElement.scrollTop === document.documentElement.offsetHeight
+      ) {
+        loadIt();
+      }
+    };
+  }
+  render (
+    return (
+      <div className="stories">
+        {masterPostList.map((post, index) =>
+          <Post img={post.img}
+            title={post.title}
+            description={post.description}
+            profile={post.profile}
+            name={post.name}
+            dateRead={post.dateRead}
+            key={index}/>
+        )}
+        <SignUp/>
+      </div>
+    );
+  )
 }
 
 export default Highlights;
