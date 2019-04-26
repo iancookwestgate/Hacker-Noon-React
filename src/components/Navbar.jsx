@@ -20,9 +20,8 @@ class Navbar extends React.Component {
   disappear() {
     if (this.state.stageVisibleOnPage === true) {
       this.setState({stageVisibleOnPage: false});
-    }
-    if (this.state.activeClass === true) {
-      this.setState({activeClass: false});
+    } else {
+      this.setState({stageVisibleOnPage: true});
     }
   }
 
@@ -60,8 +59,8 @@ class Navbar extends React.Component {
             </div>
           </div>
         </div>
-        <div className={true===this.state.stageVisibleOnPage? "hide" : "show"}>
-          <h1>You found me!</h1>
+        <div className={true===this.state.stageVisibleOnPage? "sneaky hide" : "sneaky show"}>
+          <h1>Look, I finally got state to work!!!</h1>
         </div>
       </div>
     );

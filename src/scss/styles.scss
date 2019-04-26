@@ -70,6 +70,13 @@ span {
 
 .imgManip {
   max-height: 500vh;
+  img:hover {
+    cursor: pointer;
+  }
+}
+
+.sneaky {
+  text-align: center;
 }
 
 .rowify {
@@ -114,6 +121,7 @@ span {
 .show {
   transition: .3s linear;
   display: flex;
+  justify-content: center;
   opacity: 1;
 }
 
