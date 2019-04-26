@@ -17,6 +17,15 @@ class Navbar extends React.Component {
     this.disappear = this.disappear.bind(this);
   }
 
+  disappear() {
+    if (this.state.stageVisibleOnPage === true) {
+      this.setState({stageVisibleOnPage: false});
+    }
+    if (this.state.activeClass === true) {
+      this.setState({activeClass: false});
+    }
+  }
+
   render() {
     return (
       <div className='bg-grn'>
@@ -30,7 +39,7 @@ class Navbar extends React.Component {
           </div>
           <div className='secondary-bar'>
             <div className="imgManip">
-              <Link to ="/"><img id="logo" src={hNoon}></img></Link>
+              <Link to ="/" onClick={()=>this.disappear()}><img id="logo" src={hNoon}></img></Link>
             </div>
             <div className="split">
               <div className="leftside">
