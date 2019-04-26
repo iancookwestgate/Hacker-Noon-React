@@ -219,7 +219,18 @@ class Highlights extends Component {
       }
     };
   }
-  render (
+
+  componentWillMount() {
+    this.loadIt();
+  }
+
+  loadIt = () => {
+    this.setState({ isLoading: true }, () => {
+
+    })
+  }
+
+  render () {
     return (
       <div className="stories">
         {masterPostList.map((post, index) =>
@@ -234,7 +245,8 @@ class Highlights extends Component {
         <SignUp/>
       </div>
     );
-  )
+  }
+
 }
 
 export default Highlights;
