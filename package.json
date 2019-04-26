@@ -11,18 +11,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lilkgb/react-template"
+    "url": "git+https://github.com/iancookwestgate/Hacker-Noon-React"
   },
   "keywords": [
     "react",
     "template"
   ],
-  "author": "Ryan",
+  "author": "Ian",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lilkgb/react-template"
+    "url": "https://github.com/iancookwestgate/Hacker-Noon-React"
   },
-  "homepage": "https://github.com/Lilkgb/react-template",
+  "homepage": "https://github.com/iancookwestgate/Hacker-Noon-React",
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "css-loader": "^2.1.1",
