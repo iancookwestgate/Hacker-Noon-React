@@ -123,9 +123,29 @@ span {
 // SignUp Component SCSS
 .signUp {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 0 auto;
-  max-width: 1056px;
+  width: 1056px;
   max-height: 257px;
+  overflow: hidden;
+}
+
+#compu {
+  height: 125px;
+  width: 177px;
+  padding-top: 40px;
+}
+
+#newsletter {
+  border: 1px solid rgba(0,0,0,.68);
+  border-radius: 4px;
+  padding: 0 16px;
+  line-height: 37px;
+  color: rgba(0,0,0,.68);
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+  font-size: 15px;
 }
 
 // Post Component SCSS
