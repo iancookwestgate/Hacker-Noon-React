@@ -4,7 +4,7 @@
 
 ## Description
 
-This clone of the Hacker Noon website is an app designed for Epicodus to practice cloning a website using the React framework. The links have no functionality. The final version will include posts brought in via a database using Firebase.
+This clone of the Hacker Noon website is an app designed for Epicodus to practice cloning a website using the React framework. The links have no functionality.
 
 A key aspect of this project was converting an earlier Hacker Noon clone using an Angular framework into this one using the React library. For the most part, this was smooth and easy. React is a pleasure to work with and much simpler than what was, to me, the more complicated snarl of components & files of Angular. The only hiccup that occurred pertained to proper imports. Needing to import each individual image from the assets/images folder was a confusing change, and one that took me a little while to understand. Beyond that, it was a blast using React and I look forward to using it in the future over other frameworks/libraries out there.
 
@@ -35,7 +35,7 @@ A key aspect of this project was converting an earlier Hacker Noon clone using a
 
 * Derive posts from a Firebase database.
 * Tighten up the arrangement of posts to better match that of Hacker Noon's.
-* Spend more time with CSS to properly format fonts, links, and post info.
+* Include infinite scroll functionality just like that of Hacker Noon when you scroll far enough down the page.
 
 ## Technologies Used
 
@@ -51,9 +51,10 @@ A key aspect of this project was converting an earlier Hacker Noon clone using a
 
 ## Known Bugs
 
-*
-*
-*
+* A number of console errors exist that I have not yet resolved:
+  * WarnAboutDeprecatedCJSRequire.js:17 - Warning: Please use `require("history").createBrowserHistory` instead of `require("history/createBrowserHistory")`. Support for the latter will be removed in the next major release.
+  * Warning: Accessing PropTypes via the main React package is deprecated. Use the prop-types package from npm instead.
+  * Warning: Please use `require("history").createHashHistory` instead of `require("history/createHashHistory")`. Support for the latter will be removed in the next major release.
 
 ## Support and contact details
 
