@@ -192,18 +192,25 @@ const masterPostList = [
 
 function Highlights(){
   return (
-    <div className="stories">
-      {masterPostList.map((post, index) =>
-        <Post img={post.img}
-          title={post.title}
-          description={post.description}
-          profile={post.profile}
-          name={post.name}
-          dateRead={post.dateRead}
-          key={index}/>
-      )}
-      <SignUp/>
-    </div>
+    <InfiniteScroll
+      pageStart={0}
+      loadMore={loadFunc}
+      hasMore={true || false}
+      loader={<div className="loader" key={0}>Loading...</div>}
+    >
+      <div className="stories">
+        {masterPostList.map((post, index) =>
+          <Post img={post.img}
+            title={post.title}
+            description={post.description}
+            profile={post.profile}
+            name={post.name}
+            dateRead={post.dateRead}
+            key={index}/>
+        )}
+        <SignUp/>
+      </div>
+    </InfiniteScroll>
   );
 }
 
