@@ -190,6 +190,17 @@ const masterPostList = [
 
 function Highlights(){
   return (
+    <div className="topStories">
+      {masterPostList.map((post, index) =>
+      <Post img={post.img}
+        title={post.title}
+        description={post.description}
+        profile={post.profile}
+        name={post.name}
+        dateRead={post.dateRead}
+        key={index}/>
+    )}
+    </div>
     <div className="stories">
       {masterPostList.map((post, index) =>
         <Post img={post.img}
