@@ -225,12 +225,34 @@ class Highlights extends Component {
   }
 
   loadIt = () => {
-    this.setState({ isLoading: true }, () => {
-
+    this.setState({ isLoading: true }, () =>
+      {masterPostList.map((post, index) =>
+        <Post img={post.img}
+          title={post.title}
+          description={post.description}
+          profile={post.profile}
+          name={post.name}
+          dateRead={post.dateRead}
+          key={index}/>
+      )}
+      this.setState({
+        hasMore: (this.state.posts.length < 6),
+        isLoading: false,
+        posts: [
+          ...this.state.users,
+          ...nextUsers,
+        ],
+      });
     })
   }
 
   render () {
+    const {
+      error,
+      hasMore,
+      isLoading,
+    } = this.state;
+
     return (
       <div className="stories">
         {masterPostList.map((post, index) =>
