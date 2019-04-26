@@ -120,15 +120,13 @@ span {
   max-height: 600px;
 }
 
-// .topStories {
-//   display: flex;
-//   flex-direction: row;
-//   justify-content: space-between;
-// }
-//
-// .topArranged {
-//   width: 100%;
-// }
+// SignUp Component SCSS
+.signUp {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1056px;
+  max-height: 257px;
+}
 
 // Post Component SCSS
 .arranged {
