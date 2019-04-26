@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post';
+import SignUp from './SignUp';
 import '../scss/styles.scss';
 
 const masterPostList = [
@@ -200,6 +201,7 @@ function Highlights(){
           dateRead={post.dateRead}
           key={index}/>
       )}
+      <SignUp/>
     </div>
   );
 }
