@@ -40,7 +40,7 @@ class Navbar extends React.Component {
             </div>
             <div className='secondary-bar'>
               <div className="imgManip">
-                <Link to ="/" onClick={()=>this.disappear()}><img id="logo" src={hNoon}></img></Link>
+                <img id="logo" src={hNoon} onClick={()=>this.disappear()}></img>
               </div>
               <div className="split">
                 <div className="leftside">
