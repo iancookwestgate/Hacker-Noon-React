@@ -12,6 +12,9 @@ A key aspect of this project was converting an earlier Hacker Noon clone using a
 
 ![Component and Routing structure for the Hacker Noon Clone in React](src/assets/images/component-structure.jpg)
 
+## Landing Page
+![Landing page for the Hacker Noon React Clone](src/assets/images/Hacker-Noon-Clone.PNG)
+
 ## Epicodus' README Prompt
 
 * One unforeseen issue that popped up during my development process was figuring out how to get SCSS working with the project in a separate file. I wanted to do this to avoid making my components a mess of in-line styling in addition to all the HTML I needed to put together to make this project possible. I ended up banging my head uselessly on trying to do this myself for a substantial chunk of the morning. I ended up referring to an earlier template put together by a classmate to learn how he accomplished this. Turns out that, as much as I love React, there are a few things with it that aren't as intuitive when compared to Angular!
